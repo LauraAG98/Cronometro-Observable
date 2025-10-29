@@ -1,11 +1,13 @@
-<div id="fondoCronometro">
+<div id="circuloFuera">
+  <div id="fondoCronometro">
   <div id="info">
     <h2>Mi Crónometro Observable</h2>
-    <p>{{tiempo()}} sg</p>
+    <p>{{tiempo()}} <span>sg</span></p>
     <div id="botones">
       <button (click)="empezar()">Empezar</button>
       <button (click)="reiniciar()">Reiniciar</button>
     </div>
   </div>
+</div>
 </div>
 <router-outlet />
